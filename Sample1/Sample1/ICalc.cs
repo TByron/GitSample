@@ -11,5 +11,6 @@ namespace Sample1
         int Add(int a, int b);
         double Div(double a, double b);
         double DivD(double a, double b, double c);
+        double Mult(double a, double x);
     }
 }

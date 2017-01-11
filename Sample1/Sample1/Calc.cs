@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Sample1
 {
-    public class Calc: ICalc
+    public class Calc : ICalc
     {
         /// <summary>
         /// Add
@@ -27,7 +27,7 @@ namespace Sample1
         /// <returns>a/b</returns>
         public double Div(double a, double b)
         {
-            return a/b;
+            return a / b;
         }
 
         /// <summary>
@@ -39,8 +39,18 @@ namespace Sample1
         /// <returns>a/b + c</returns>
         public double DivD(double a, double b, double c)
         {
-            return a/b + c;
+            return a / b + c;
         }
 
+        /// <summary>
+        /// multiply
+        /// </summary>
+        /// <param name="a">a</param>
+        /// <param name="x">x</param>
+        /// <returns>a*x</returns>
+        public double Mult(double a, double x)
+        {
+            return a * x;
+        }
     }
 }
