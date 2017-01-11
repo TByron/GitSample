@@ -22,23 +22,12 @@ namespace Sample1
         /// <summary>
         /// divied
         /// </summary>
-        /// <param name="a">numerator a</param>
+        /// <param name="a">nominator a</param>
         /// <param name="b">denominator b</param>
         /// <returns>a/b</returns>
         public double Div(double a, double b)
         {
             return a/b;
-        }
-
-        /// <summary>
-        /// divide2
-        /// </summary>
-        /// <param name="a">denoinator a</param>
-        /// <param name="b">numerator b</param>
-        /// <returns></returns>
-        public double DivB(double a, double b)
-        {
-            return b/a;
         }
 
     }
