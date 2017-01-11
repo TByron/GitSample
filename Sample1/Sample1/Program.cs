@@ -11,6 +11,8 @@ namespace Sample1
         static void Main(string[] args)
         {
             Console.WriteLine("Git the hub");
+
+            Console.WriteLine("To git or not to git");
         }
     }
 }
