@@ -30,5 +30,17 @@ namespace Sample1
             return a/b;
         }
 
+        /// <summary>
+        /// divide + add
+        /// </summary>
+        /// <param name="a">numerator</param>
+        /// <param name="b">denominator</param>
+        /// <param name="c">additive</param>
+        /// <returns>a/b + c</returns>
+        public double DivD(double a, double b, double c)
+        {
+            return a/b + c;
+        }
+
     }
 }
