@@ -16,6 +16,7 @@ namespace Sample1
         /// <returns>a+b</returns>
         public int Add(int a, int b)
         {
+            Console.WriteLine("add");
             return a + b;
         }
 
